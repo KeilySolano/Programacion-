@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.34-dev-7, created on 2020-06-24 20:55:03
-  from 'C:\xampp\htdocs\Progra\Programacion-\templates\Login.tpl' */
+/* Smarty version 3.1.34-dev-7, created on 2020-06-24 20:46:54
+  from 'C:\xampp\htdocs\Progra\Programacion-\templates\AdminCrearUser.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.34-dev-7',
-  'unifunc' => 'content_5ef3a1877702c2_52609011',
+  'unifunc' => 'content_5ef39f9e37e9b2_73187453',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
-    'ab35145d4a75d33583084bc26a79d8e7dd559dd9' => 
+    '414071048467c746edba43d410589c61b08f1597' => 
     array (
-      0 => 'C:\\xampp\\htdocs\\Progra\\Programacion-\\templates\\Login.tpl',
-      1 => 1593024857,
+      0 => 'C:\\xampp\\htdocs\\Progra\\Programacion-\\templates\\AdminCrearUser.tpl',
+      1 => 1593024239,
       2 => 'file',
     ),
   ),
@@ -20,11 +20,11 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5ef3a1877702c2_52609011 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5ef39f9e37e9b2_73187453 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div class="row justify-content-md-center">
-	<div class="col-6">
-	  <br><h1>Login</h1><br>
-	  <form method="post" action="?controller=User&action=ValidarUsuario">
+	<div class="col">
+	  <br><h1>Crear usuario</h1><br>
+	  <form method="post" action="">
 	    <div class="form-group">
 			<label for="usuario">Usuario</label>
 			<input type "tex" class="form-control" id="usuario" name="usuario " aria-decribedby="emailHelp">
@@ -40,7 +40,7 @@ function content_5ef3a1877702c2_52609011 (Smarty_Internal_Template $_smarty_tpl)
 				<option valee="Administrador">Administrador</option>
 			</select>
 		</div><br>
-	    <button type="submit" class="btn btn-primary">Ingresar</button>
+	    <button type="submit" class="btn btn-primary">Guardar Usuario</button>
 	  </form>
 	</div>
 </div><?php }

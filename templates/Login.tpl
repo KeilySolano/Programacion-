@@ -1,7 +1,7 @@
 <div class="row justify-content-md-center">
 	<div class="col-6">
 	  <br><h1>Login</h1><br>
-	  <form method="post" action="">
+	  <form method="post" action="?controller=User&action=ValidarUsuario">
 	    <div class="form-group">
 			<label for="usuario">Usuario</label>
 			<input type "tex" class="form-control" id="usuario" name="usuario " aria-decribedby="emailHelp">

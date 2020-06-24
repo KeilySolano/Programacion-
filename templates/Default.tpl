@@ -1,8 +1,8 @@
 {include file="Cabeceras/header.tpl"}
 
-	<div align="Center">
-		<br>
-		<h1>Hello</h1>
-	</div>
+	{if isset($usuario)}
+	{else}
+		{include file="Login.tpl"}
+	{/if}
 
 {include file="Cabeceras/footer.tpl"}

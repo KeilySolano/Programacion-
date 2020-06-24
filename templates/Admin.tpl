@@ -30,7 +30,7 @@
 	</div>
 
 	<div class="col-9">
-		{include file="AdminHabUser.tpl"}
+		{include file="AdminCrearUser.tpl"}
 	</div>
 
 </div>
