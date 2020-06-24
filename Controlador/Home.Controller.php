@@ -13,7 +13,7 @@
     public function Inicio()
     {
        $smarty=new Smarty();
-       $smarty->display("Default.tpl");
+       $smarty->display("Login.tpl");
     }
     public function Fun2()
     {
